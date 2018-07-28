@@ -137,10 +137,15 @@
       
         <p>In cryptography, we define the input as any information or file, and the output is a fixed-length function called “Hash Function”. For example, in equation H(x)=Z, ‘x’ represents the information or the file while ‘Z’ means the hash value of ‘x’.</p>
 <p>So the general hash function has the following properties:</p>
-<h1 id="1-Input-is-an-arbitrary-size-string"><a href="#1-Input-is-an-arbitrary-size-string" class="headerlink" title="1. Input is an arbitrary size string."></a>1. Input is an arbitrary size string.</h1><h1 id="2-Output-is-a-fixed-length-string"><a href="#2-Output-is-a-fixed-length-string" class="headerlink" title="2. Output is a fixed-length string."></a>2. Output is a fixed-length string.</h1><h1 id="3-The-calculation-is-in-a-resaonable-amount-of-time"><a href="#3-The-calculation-is-in-a-resaonable-amount-of-time" class="headerlink" title="3. The calculation is in a resaonable amount of time."></a>3. The calculation is in a resaonable amount of time.</h1><p>While, if we needs a secure hash function, we also require another three important properties:</p>
-<h1 id="1-Collision-resistance"><a href="#1-Collision-resistance" class="headerlink" title="1. Collision-resistance:"></a>1. Collision-resistance:</h1><p>Collision-resistance means if we cannot find two different input ‘x’ and ‘y’, that the output H(x)=H(y), we call the hash function has collision-resistance.</p>
-<h1 id="2-Hiding"><a href="#2-Hiding" class="headerlink" title="2. Hiding:"></a>2. Hiding:</h1><p>Hiding means if we only know the hash value ‘y’, it is not easy to find ‘x’ to satisfied ‘y=H(x)’.</p>
-<h1 id="3-Puzzle-friendliness"><a href="#3-Puzzle-friendliness" class="headerlink" title="3. Puzzle-friendliness:"></a>3. Puzzle-friendliness:</h1><p>For any n-bit output value ‘y’, if there is no feasible way to find ‘x’ in a much smaller time than 2^n, to guarantee the ‘y=H(x)’ establishment. We call it is Puzzle-friendliness.</p>
+<ol>
+<li>Input is an arbitrary size string.</li>
+<li>Output is a fixed-length string.</li>
+<li>The calculation is in a resaonable amount of time.</li>
+</ol>
+<p>While, if we needs a secure hash function, we also require another three important properties:</p>
+<h3 id="1-Collision-resistance"><a href="#1-Collision-resistance" class="headerlink" title="1. Collision-resistance:"></a>1. Collision-resistance:</h3><p>Collision-resistance means if we cannot find two different input ‘x’ and ‘y’, that the output H(x)=H(y), we call the hash function has collision-resistance.</p>
+<h3 id="2-Hiding"><a href="#2-Hiding" class="headerlink" title="2. Hiding:"></a>2. Hiding:</h3><p>Hiding means if we only know the hash value ‘y’, it is not easy to find ‘x’ to satisfied ‘y=H(x)’.</p>
+<h3 id="3-Puzzle-friendliness"><a href="#3-Puzzle-friendliness" class="headerlink" title="3. Puzzle-friendliness:"></a>3. Puzzle-friendliness:</h3><p>For any n-bit output value ‘y’, if there is no feasible way to find ‘x’ in a much smaller time than 2^n, to guarantee the ‘y=H(x)’ establishment. We call it is Puzzle-friendliness.</p>
 
       
     </div>
