@@ -7,19 +7,17 @@
   
   <title>Hash Function | Blockchain Learning</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Hash function, the input can be any information or file but the output is a fixed-length function. For example, , $x$ represents the information or the file, $Y$ is the hash value of $x$.">
+  <meta name="description" content="In cryptography, we define the input as any information or file, and the output is a fixed-length function called “Hash Function”. For example, in equation H(x)=Z, ‘x’ represents the information or th">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hash Function">
 <meta property="og:url" content="http://yoursite.com/2018/06/28/Learning/index.html">
 <meta property="og:site_name" content="Blockchain Learning">
-<meta property="og:description" content="Hash function, the input can be any information or file but the output is a fixed-length function. For example, , $x$ represents the information or the file, $Y$ is the hash value of $x$.">
+<meta property="og:description" content="In cryptography, we define the input as any information or file, and the output is a fixed-length function called “Hash Function”. For example, in equation H(x)=Z, ‘x’ represents the information or th">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://chart.googleapis.com/chart?cht=tx&chl=H(x)=Y">
-<meta property="og:updated_time" content="2018-06-28T07:06:22.085Z">
+<meta property="og:updated_time" content="2018-07-28T02:29:42.789Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hash Function">
-<meta name="twitter:description" content="Hash function, the input can be any information or file but the output is a fixed-length function. For example, , $x$ represents the information or the file, $Y$ is the hash value of $x$.">
-<meta name="twitter:image" content="http://chart.googleapis.com/chart?cht=tx&chl=H(x)=Y">
+<meta name="twitter:description" content="In cryptography, we define the input as any information or file, and the output is a fixed-length function called “Hash Function”. For example, in equation H(x)=Z, ‘x’ represents the information or th">
   
     <link rel="alternate" href="/atom.xml" title="Blockchain Learning" type="application/atom+xml">
   
@@ -88,12 +86,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Hash function, the input can be any information or file but the output is a fixed-length function. For example, <img src="http://chart.googleapis.com/chart?cht=tx&chl=H(x)=Y" style="border:none;">, $x$ represents the information or the file, $Y$ is the hash value of $x$.</p>
+        <p>In cryptography, we define the input as any information or file, and the output is a fixed-length function called “Hash Function”. For example, in equation H(x)=Z, ‘x’ represents the information or the file while ‘Z’ means the hash value of ‘x’.</p>
+<p>So the general hash function has the following properties:</p>
+<h1 id="1-Input-is-an-arbitrary-size-string"><a href="#1-Input-is-an-arbitrary-size-string" class="headerlink" title="1. Input is an arbitrary size string."></a>1. Input is an arbitrary size string.</h1><h1 id="2-Output-is-a-fixed-length-string"><a href="#2-Output-is-a-fixed-length-string" class="headerlink" title="2. Output is a fixed-length string."></a>2. Output is a fixed-length string.</h1><h1 id="3-The-calculation-is-in-a-resaonable-amount-of-time"><a href="#3-The-calculation-is-in-a-resaonable-amount-of-time" class="headerlink" title="3. The calculation is in a resaonable amount of time."></a>3. The calculation is in a resaonable amount of time.</h1><p>While, if we needs a secure hash function, we also require another three important properties:</p>
+<h1 id="1-Collision-resistance"><a href="#1-Collision-resistance" class="headerlink" title="1. Collision-resistance:"></a>1. Collision-resistance:</h1><p>Collision-resistance means if we cannot find two different input ‘x’ and ‘y’, that the output H(x)=H(y), we call the hash function has collision-resistance.</p>
+<h1 id="2-Hiding"><a href="#2-Hiding" class="headerlink" title="2. Hiding:"></a>2. Hiding:</h1><p>Hiding means if we only know the hash value ‘y’, it is not easy to find ‘x’ to satisfied ‘y=H(x)’.</p>
+<h1 id="3-Puzzle-friendliness"><a href="#3-Puzzle-friendliness" class="headerlink" title="3. Puzzle-friendliness:"></a>3. Puzzle-friendliness:</h1><p>For any n-bit output value ‘y’, if there is no feasible way to find ‘x’ in a much smaller time than 2^n, to guarantee the ‘y=H(x)’ establishment. We call it is Puzzle-friendliness.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/28/Learning/" data-id="cjiy7hres0000l0vuiht0gicx" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/06/28/Learning/" data-id="cjk4sulo10000wcvua4idi1uf" class="article-share-link">Share</a>
       
       
     </footer>
